@@ -60,7 +60,7 @@ html,body	{height: 100%; width: 100%;	background-image: url(s1-bg.jpg); ;backgro
 	float: right;
 	bottom: 100%;
 	opacity: 0.2;
-	line-height: 50vh;
+	line-height: 100vh;
   	text-align: center;
 	user-select: none;
 }
