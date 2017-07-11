@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Slider z-index</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Tymoteusz Magoń">
+		<meta name="generator" content="Notepad++">
+		<meta name="robots" content="all">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
+		
+		<!-- This slider is simple. Its working with changing z-index of slides. When one is going to bottom, another slides going top!-->
+	</head>
+<body>
+	<div id="container">
+		<div class="content">
+			
+			<div class="s1" onclick="alert('This is your href')">					Content 1	<p class="slide-desc">Content 1 description</p></div>
+			<div class="s2" onclick="alert('This is your another href')">			Content 2	<p class="slide-desc">Content 2 description</p></div>
+			<div class="s3" onclick="alert('This is your another another href')">	Content 3	<p class="slide-desc">Content 3 description</p></div>
+						
+		</div>
+			<div class="back"><p class="arrows">&lt;</p></div>
+			<div class="next"><p class="arrows">&gt;</p></div>
+			<div class="navigate">
+
+				<div class="naviDot1">&nbsp;</div>
+				<div class="naviDot2">&nbsp;</div>
+				<div class="naviDot3">&nbsp;</div>
+
+		
+			
+			</div>		
+			
+		
+	</div>
+	<script src="slider.js"></script>
+		
+</body>
+</html>

@@ -1,0 +1,118 @@
+*	{ margin: 0; padding: 0;	overflow: hidden;}
+html,body	{height: 100%; width: 100%;	background-image: url(s1-bg.jpg); ;background-size: cover;}
+#container	{
+	width: 90%;
+	height: 100%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+	
+.back {
+	height: 100%;
+	width: 10%;
+	background: white;
+	z-index: 5;
+	position: relative;
+	float:left;
+	bottom:100%;
+	opacity: 0.2;
+	user-select: none;
+}
+.navigate	{
+	width:	20%;
+	height: 5%;
+	z-index: 4;
+	position: relative;
+	bottom: 10%;
+	margin-left: 46%;
+	margin-top: 1%;
+}
+	
+
+.naviDot1, .naviDot2, .naviDot3	{
+	width: 0.8vw;
+	height: 0.8vw;
+	background-color: black;
+	z-index: 5;
+	margin: 3%;
+	border-radius: 50%;
+	float: left;
+	opacity: 0.6;
+	border-style:solid ;
+	border-color: white;
+	border-width: 1px;
+	cursor: default;
+	user-select: none;
+	cursor: pointer;
+}
+.arrows	{
+	position: relative;
+	text-align: center;
+	margin-top: 200%;
+	font-size: 5vw;
+	color: grey;
+}
+.next {
+	height: 100%;
+	width: 10%;
+	background: white;
+	position: relative;
+	z-index: 5;
+	float: right;
+	bottom: 100%;
+	opacity: 0.2;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	user-select: none;
+}
+.content {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+.s1, .s2, .s3	{
+	width: 100%;
+	height: 100%;
+	padding-top: 20vh;
+	background-size: cover; 
+	position: absolute;
+	text-align: center;
+	color: white;
+	font-size: 10vw;
+}
+
+.s1	{
+	background-image: url(s1-bg.jpg);
+	z-index: 5;
+}
+
+
+.s2	{
+	background-image: url(s2-bg.jpg); 
+	z-index: 4;
+}
+
+.s3	{
+	background-image: url(s3-bg.jpg); ;background-size: cover;
+	z-index: 3;
+
+}
+
+.slide-desc	{
+	font-size: 3vw;
+	margin-left: 10%;
+	margin-right: 10%; 
+	margin-top:5%; 
+	background-color: black; 
+	opacity: 0.5;
+}
+
+
+
+
+
+
+}
