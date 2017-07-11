@@ -48,7 +48,6 @@ html,body	{height: 100%; width: 100%;	background-image: url(s1-bg.jpg); ;backgro
 .arrows	{
 	position: relative;
 	text-align: center;
-	
 	font-size: 5vw;
 	color: grey;
 }
@@ -61,9 +60,8 @@ html,body	{height: 100%; width: 100%;	background-image: url(s1-bg.jpg); ;backgro
 	float: right;
 	bottom: 100%;
 	opacity: 0.2;
-	text-align: center;
-	vertical-align: middle;
-	display: table-cell;
+	line-height: 50vh;
+  	text-align: center;
 	user-select: none;
 }
 .content {
